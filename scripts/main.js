@@ -154,3 +154,33 @@ const showTrendingGifs = async () =>{
 
     });
 }
+
+
+
+// Modal
+
+/* 
+const showModal = (ev) =>{
+    const modal = document.querySelector('.modal-container');
+    modal.style.display = "none";
+    modal.innerHTML = 
+    `<div class="open-modal">
+      <img src="${ev.target.image}" alt="${ev.target.title}">
+      <i class="close-modal"><img src="./images/close.svg" alt="close"></i>
+  </div>
+  <div class="modal-info">
+      <div class="modal-titles">
+      <p>${ev.target.username}</p>
+      <h4>${ev.target.title}</h4>
+      </div>
+      <div class="modal-btn">
+          <i class="favoritos" id='${ev.target.id}'><img src="./images/icon-fav.svg" alt="favoritos"></i>
+          <i class="download"><img src="./images/icon-download.svg" alt="download"></i>
+      </div>
+  </div>`
+ document.querySelector('.open-modal > .close-modal').addEventListener('click',function(){
+      modal.style.display = 'block'
+});
+  }
+
+*/

@@ -7,9 +7,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="initial-scale=1">
       <title>GifOs</title>
-      <link rel="stylesheet" href="../styles-shared/styles-light/styles-shared.css">
-      <link rel="stylesheet" href="../home/styles/styles-light/styles.css">
-      <link rel="stylesheet" href="../styles-shared/styles-busq-fav-gifos/styles.css">
+      <link rel="stylesheet" href="./styles/fav-misgifos.css">
+
 
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -22,7 +21,7 @@
   <body>
 
     <nav>
-        <img src="../images-shared/images-light/logo-desktop.svg">
+        <img src="./images/logo-desktop.svg" alt="GifOs">
 
         <input type="checkbox" id="menu">
         <label for="menu" class="open"><i class="fas fa-bars"></i></label>
@@ -30,35 +29,14 @@
          
         <ul>
           <li><a href="../home/index-home-noc.html">MODO NOCTURNO</a></li>
-          <li><a href="../favoritos/index.html">FAVORITOS</a></li>
-          <li><a href="../mis-gifos/index.html">MIS GIFOS</a></li>
-          <li><a href="../creando-gifos/index-gifos1.html"><button class="crear">+</button></a></li>
+          <li><a href="./favoritos.html">FAVORITOS</a></li>
+          <li><a href="./mis-gifos.html">MIS GIFOS</a></li>
+          <li><a href="./creando-gifos.html"><button class="crear">+</button></a></li>
         </ul>
     </nav>
 
     
   
-
-    <style type="text/css">
-    img{
-        display: block;
-        width:28px;
-        height: 21px;
-        margin-bottom: 10px;
-
-    }
-    h2{
-        display:block;
-        font-size: 23px;
-       color: #572EE5;
-       text-align: center;
-       line-height: 30px;
-    }
-       .container{
-           margin-top: 46px;
-       }
-        </style>
-
 
 
 
@@ -69,36 +47,49 @@
 
     
     <div class="container">
-        
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <!--
+
+        <div class="favourite">
+          <div class="gif-buttons">
+            <img src="./images/icon-fav.svg" class="btn">
+            <img src="./images/icon-download.svg" class="btn">
+            <img src="./images/icon-max-normal.svg" class="btn">
+         </div>
+         <div class="titles">
+            <span id="user">User</span>
+             <span id="gif-title">Titulo</span>
+         </div> 
+        </div>
+           -->
+
     </div>
    
-
-
-   <button class="btn">VER MÁS</button>
-
+<button class="agregar">Agregar</button>
 
 
 
     
 
-    <div class="trending-gifos">
+    <!--  Trending gifos -->
     
- 
+     
+   
 
-      
+    <div class="trending-container">
+      <h2>Trending Gifos</h2>
+      <p>Mirá los ultimos GIFOS de nuestra comunidad.</p>
+
+      <div class="carrousel-giftrending">
+      <!--<img src="images/button-slider-left.svg" class="left-btn">
+
+
+
+        <img src="images/Button-Slider-right.svg" class="right-btn">
+-->
+      </div>
+
     </div>
+ 
 
 
     <footer>
@@ -114,6 +105,9 @@
 
       <p>&copy GIFOS 2020 All Rights Reserved.</p>
     </footer>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/main-fav.js"></script>
+   
   </body>
 
 </html>

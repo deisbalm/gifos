@@ -7,8 +7,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="initial-scale=1">
       <title>GifOs</title>
-      <link rel="stylesheet" type="text/css" href="./styles/home.css">
-      <link rel="stylesheet" type="text/css" href="./styles/nav-footer.css">
+      <link rel="stylesheet" type="text/css" href="./styles/search.css">
 
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -42,7 +41,6 @@
          
          <div class="search">
             <input type="text" name="search" placeholder="Busca GIFOS y más" class="sugerencias">
-            <img src="./images/icon-search.svg" class="icon-search">
         </div>
           
         <div class="sugerencias">
@@ -58,10 +56,28 @@
          <h2 class="gif-title"></h2>
          <div class="gif-container">
       
-          
          </div>
+  
+            <div class="container-modal">
+               <div class="gif-modal">
+                 <div class="img"></div>
+                 <img src="images/close.svg">
+               </div>
 
-       
+               <div class="info-modal">
+                 <div class="titles">
+                   <p>User</p>
+                   <h4>Titulo GIFO</h4>
+                 </div>
+                 <div class="btns">
+                   <img src="images/icon-fav.svg">
+                   <img src="images/icon-download.svg">
+                 </div>
+               </div>
+
+            </div>
+
+     
  
 
 
@@ -84,6 +100,7 @@
       </div>
 
     </div>
+ 
 
 
 <!-- Fin trending gifos -->

@@ -1,0 +1,47 @@
+img{
+    display: block;
+    width:28px;
+    height: 21px;
+    margin-bottom: 10px;
+
+}
+h2{
+    display:block;
+    font-size: 23px;
+   color: #572EE5;
+   text-align: center;
+   line-height: 30px;
+}
+   .container{
+       margin-top: 46px;
+       display: grid;
+        grid-template: repeat(6, 1fr) / repeat(2, 1fr);
+        grid-gap: 5vw;
+        padding:3%;
+      }
+       .favourite {
+        background-repeat:round;
+        background-color: #572EE5;
+            width: 156px;
+            height: 120px;
+            margin-top: 20px; 
+            border:1px solid black;   
+       }
+       .gif-buttons{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+       }
+       .titles{
+         display: flex;
+         flex-direction: column;
+         margin-top:40px;
+         font-size: 16px;
+         color:white;
+       }
+
+
+      
+
+       @import '_nav-footer';
+       @import '_trending';

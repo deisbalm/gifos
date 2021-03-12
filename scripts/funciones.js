@@ -32,8 +32,4 @@
 
 
 
-const trendingGifos = (parent) =>{
-    const trending = document.createElement('div');
-    trending.classList.add('trending-gifos');
-    trending.classList.add('box');
-}
+
